@@ -1,0 +1,10 @@
+message dnsrequest
+{
+   required string id = 1;
+   required string site = 2;
+   required int32 parental_control = 3;
+   required string client_mac = 4;
+   required string apuuid = 5;
+   required string default_topic = 6;
+   optional int32 severity = 7;
+}
